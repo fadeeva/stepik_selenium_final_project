@@ -23,10 +23,6 @@ class LoginPageLocators():
     REGISTRATION_BTN    = (By.CSS_SELECTOR, '.btn.btn-lg.btn-primary[value=Register]')
 
 
-class MainPageLocators():
-    LOGIN_LINK          = (By.CSS_SELECTOR, '#login_link')
-
-
 class ProductPageLocators():
     ADD_ITEM_BTN        = (By.CSS_SELECTOR, '.btn.btn-lg.btn-primary.btn-add-to-basket')
     
